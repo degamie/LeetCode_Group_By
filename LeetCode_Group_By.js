@@ -1,5 +1,5 @@
 //New Apporaches
-//T(C(N)) and S(C(N))==O(N) as it requires dynamic memory alloc iteratively 
+//T(C(N))==O(1) and S(C(N))==O(N) as it requires dynamic memory alloc in unit Time  
 Array.prototype.groupBy = function(fn) {//  groupBy() function Declare
      return this.reduce((grouped, item) => {//Reducing the input function into Groped Set  Collection Constructor.
     const key = fn(item);//provided callback function's  Key's application
